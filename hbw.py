@@ -47,3 +47,4 @@ blocks_world = BlocksWorld(initial_state, goal_state)
 # Calculate heuristic value for the initial state
 heuristic_value = blocks_world.calculate_heuristic(initial_state)
 print(f"Heuristic value for the given state: {heuristic_value}")
+print(f"Heuristic value for the given state: {heuristic_value}")
