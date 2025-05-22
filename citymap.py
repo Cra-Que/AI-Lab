@@ -41,4 +41,4 @@ nx.draw(city_map, pos, with_labels=True, node_color='skyblue', node_size=700, fo
 labels = nx.get_edge_attributes(city_map, 'weight')
 nx.draw_networkx_edge_labels(city_map, pos, edge_labels=labels)
 plt.show()
-print("")
+print("");
